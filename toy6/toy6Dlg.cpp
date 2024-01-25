@@ -745,7 +745,7 @@ void Ctoy6Dlg::OnBnClickedButton0()
 	}
 	else
 	{	// 부호를 누른뒤 새로운 값을 입력할때
-		// 옳지않은 
+		// 확실하지 않은 입력값은 예외처리
 		GetDlgItemText(IDC_EDIT_result, SmRes);
 		int index = SmRes.Find('.');
 		if (index != -1)  
